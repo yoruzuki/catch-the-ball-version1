@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         //scoreLabel.setText("Score : 0");
         scoreLabel.setText(getString(R.string.score, 0));
 
+        Log.v("TEST", "HelloWorld！");
         Log.v("SIZE", "onCreate boxY: " + box.getY());
     }
 
